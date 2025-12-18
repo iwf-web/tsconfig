@@ -1,0 +1,40 @@
+{
+  "name": "@iwf-web/tsconfig",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Standard tsconfig for IWF projects",
+  "author": {
+    "name": "D3strukt0r",
+    "email": "dev@d3strukt0r.dev",
+    "url": "https://github.com/D3strukt0r"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/iwf-web/tsconfig",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iwf-web/tsconfig.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iwf-web/tsconfig/issues",
+    "email": "web-solutions@iwf.ch"
+  },
+  "keywords": [
+    "typescript",
+    "tsconfig"
+  ],
+  "files": [
+    "react-strict"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "provenance": true
+  },
+  "dependencies": {
+    "@tsconfig/recommended": "^1.0.13",
+    "@tsconfig/strictest": "^2.0.8",
+    "@tsconfig/vite-react": "^7.0.2"
+  },
+  "packageManager": "pnpm@10.26.0+sha512.3b3f6c725ebe712506c0ab1ad4133cf86b1f4b687effce62a9b38b4d72e3954242e643190fc51fa1642949c735f403debd44f5cb0edd657abe63a8b6a7e1e402"
+}
