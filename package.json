@@ -1,7 +1,7 @@
 {
   "name": "@iwf-web/tsconfig",
   "type": "module",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Standard tsconfig for IWF projects",
   "author": {
     "name": "D3strukt0r",
