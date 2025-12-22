@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.0.1](https://github.com/iwf-web/tsconfig/compare/0.0.1...1.0.1) (2025-12-19)
+## [1.0.1](https://github.com/iwf-web/tsconfig/compare/c6b2ca2...1.0.1) (2025-12-19)
 
 
 ### ✨ Features
