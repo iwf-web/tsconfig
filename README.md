@@ -33,6 +33,21 @@ Or with npm:
 npm install -D @iwf-web/tsconfig
 ```
 
+### pnpm Configuration
+
+When using pnpm, you need to hoist the base tsconfig packages so TypeScript can resolve them. Add the following to your `pnpm-workspace.yaml`:
+
+```yaml
+publicHoistPattern:
+  - "@tsconfig/*"
+```
+
+Or in your `.npmrc`:
+
+```ini
+public-hoist-pattern[]=@tsconfig/*
+```
+
 ### Usage
 
 Extend the configuration in your `tsconfig.json`:
