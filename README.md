@@ -79,12 +79,13 @@ This configuration extends three base configurations for comprehensive TypeScrip
 
 The following settings are relaxed from the strictest defaults for practical development:
 
-| Setting                              | Value   | Reason                                               |
-| ------------------------------------ | ------- | ---------------------------------------------------- |
-| `erasableSyntaxOnly`                 | `false` | Allows enums, namespaces, and classes                |
-| `noPropertyAccessFromIndexSignature` | `false` | Allows dot notation for index signatures             |
-| `noImplicitAny`                      | `false` | Permits implicit `any` types where inference fails   |
-| `exactOptionalPropertyTypes`         | `false` | Allows `undefined` assignment to optional properties |
+| Setting                              | Value                           | Reason                                               |
+| ------------------------------------ | ------------------------------- | ---------------------------------------------------- |
+| `lib`                                | `ES2023`, `DOM`, `DOM.Iterable` | Supports modern array functions (e.g. `toSorted`)    |
+| `erasableSyntaxOnly`                 | `false`                         | Allows enums, namespaces, and classes                |
+| `noPropertyAccessFromIndexSignature` | `false`                         | Allows dot notation for index signatures             |
+| `noImplicitAny`                      | `false`                         | Permits implicit `any` types where inference fails   |
+| `exactOptionalPropertyTypes`         | `false`                         | Allows `undefined` assignment to optional properties |
 
 ## Contributing
 
