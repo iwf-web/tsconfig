@@ -5,7 +5,7 @@
 
 ### ✨ Features
 
-* Support new array functions like toSorted ([d3df54c](https://github.com/iwf-web/tsconfig/commit/d3df54cac51623f6a4a32a8f1c03787adca13cf2))
+* Support new array functions like toSorted by using ES2023 instead of ES2022 (from base `vite-react` config) ([d3df54c](https://github.com/iwf-web/tsconfig/commit/d3df54cac51623f6a4a32a8f1c03787adca13cf2))
 
 
 ### 📚 Documentation
