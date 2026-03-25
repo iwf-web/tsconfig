@@ -3,9 +3,13 @@
   "extends": [
     "@tsconfig/recommended/tsconfig.json",
     "@tsconfig/vite-react/tsconfig.json",
-    "@tsconfig/strictest/tsconfig.json",
+    "@tsconfig/strictest/tsconfig.json"
   ],
   "compilerOptions": {
+    // @antfu/eslint-config v7.0.0 integrated @e18e/eslint-plugin which forces
+    // e.g. [].toSorted, which is only supported in ES2023.
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+
     // Allows enums(!), namespaces, and classes
     "erasableSyntaxOnly": false,
 
