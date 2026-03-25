@@ -9,14 +9,18 @@ importers:
   .:
     dependencies:
       '@tsconfig/recommended':
-        specifier: ^1.0.13
+        specifier: ^1.0.0
         version: 1.0.13
       '@tsconfig/strictest':
-        specifier: ^2.0.8
+        specifier: ^2.0.0
         version: 2.0.8
       '@tsconfig/vite-react':
-        specifier: ^7.0.2
+        specifier: ^7.0.0
         version: 7.0.2
+    devDependencies:
+      typescript:
+        specifier: ^6.0.2
+        version: 6.0.2
 
 packages:
 
@@ -29,6 +33,11 @@ packages:
   '@tsconfig/vite-react@7.0.2':
     resolution: {integrity: sha512-lEj4y5SPRcH+bjw0tyuxrEnPqQUwfQzBKgd1YamD9xyet9zLwh2gwy5F8w/Nxg5DjdgYVjjKo5aLJUf0BTDz4w==}
 
+  typescript@6.0.2:
+    resolution: {integrity: sha512-bGdAIrZ0wiGDo5l8c++HWtbaNCWTS4UTv7RaTH/ThVIgjkveJt83m74bBHMJkuCbslY8ixgLBVZJIOiQlQTjfQ==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
 snapshots:
 
   '@tsconfig/recommended@1.0.13': {}
@@ -36,3 +45,5 @@ snapshots:
   '@tsconfig/strictest@2.0.8': {}
 
   '@tsconfig/vite-react@7.0.2': {}
+
+  typescript@6.0.2: {}

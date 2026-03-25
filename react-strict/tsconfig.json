@@ -6,7 +6,7 @@
     "@tsconfig/strictest/tsconfig.json"
   ],
   "compilerOptions": {
-    // @antfu/eslint-config v7.0.0 integrated @e18e/eslint-plugin which forces
+    // @antfu/eslint-config v7.7.0 integrated @e18e/eslint-plugin which forces
     // e.g. [].toSorted, which is only supported in ES2023.
     "lib": ["ES2023", "DOM", "DOM.Iterable"],
 
