@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/iwf-web/tsconfig/compare/1.0.2...1.1.0) (2026-03-25)
+
+
+### ✨ Features
+
+* Support new array functions like toSorted by using ES2023 instead of ES2022 (from base `vite-react` config) ([d3df54c](https://github.com/iwf-web/tsconfig/commit/d3df54cac51623f6a4a32a8f1c03787adca13cf2))
+
+
+### 📚 Documentation
+
+* Simplify after moving community files to org repo .github ([ee1e933](https://github.com/iwf-web/tsconfig/commit/ee1e93387a615451b0c4a5cda0c737c5b0977edf))
+
 ## [1.0.2](https://github.com/iwf-web/tsconfig/compare/1.0.1...1.0.2) (2026-03-09)
 
 
