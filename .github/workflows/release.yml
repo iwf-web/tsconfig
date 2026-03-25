@@ -51,7 +51,7 @@ jobs:
       #    restore-keys: |
       #      ${{ runner.os }}-pnpm-
       - name: Install package dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
 
       # Using Trusted Publisher to sign the package
       # See: https://docs.npmjs.com/trusted-publishers
