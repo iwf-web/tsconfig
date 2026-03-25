@@ -1,0 +1,4 @@
+{
+  "extends": "./react-strict/tsconfig.json",
+  "include": ["test"]
+}
