@@ -1,6 +1,6 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to AI coding agents when working with code in this repository.
 
 ## Project Overview
 
@@ -10,6 +10,7 @@ This is `@iwf-web/tsconfig`, a TypeScript configuration package for IWF projects
 
 ```bash
 pnpm install    # Install dependencies
+pnpm ts:check   # Type-check the configs against test/index.ts (tsc --noEmit)
 ```
 
 No build step required - the package exports JSON configuration files directly.
