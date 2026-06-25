@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1](https://github.com/iwf-web/tsconfig/compare/1.1.0...1.1.1) (2026-06-25)
+
+
+### 🐛 Bug Fixes
+
+* **ci:** group dependabot updates and harden release workflow ([a11cfcb](https://github.com/iwf-web/tsconfig/commit/a11cfcb545dec5e2736c7f0930847857c6863543))
+
+
+### 📚 Documentation
+
+* document lib setting in README ([e22fdec](https://github.com/iwf-web/tsconfig/commit/e22fdec607d353983234e971ae001a4fb293e40d))
+
 ## [1.1.0](https://github.com/iwf-web/tsconfig/compare/1.0.2...1.1.0) (2026-03-25)
 
 
